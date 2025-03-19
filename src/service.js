@@ -33,5 +33,7 @@ export default {
   deleteTask:async(id)=>{
     console.log('deleteTask')
     await axios.delete(`/items/${id}`)
+
+    
   }
 };
